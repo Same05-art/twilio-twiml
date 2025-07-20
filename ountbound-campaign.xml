@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Say voice="woman" language="fr-FR">Bonjour, ici le Centre National de Formation Canine. Nous avons une opportunité à vous proposer.</Say>
+  <Dial action="https://devenezeducateurcanin.fr/voicemail-handler" timeout="15">
+    +33745496348
+  </Dial>
+  <Say voice="woman" language="fr-FR">Nous n'avons pas pu vous joindre. Voici notre message :</Say>
+  <Play>https://devenezeducateurcanin.fr/wp-content/uploads/2025/06/WhatsApp-Accueil-2025-06-26-a-13.03.38_518ddc7b.mp3</Play>
+</Response>
