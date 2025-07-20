@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Say voice="alice" language="fr-FR">Bonjour, veuillez patienter pendant que nous vous mettons en relation avec un conseiller.</Say>
+  <Dial action="https://baobabsavoir.com/callback" timeout="20">
+    <Number>+33745496348</Number>
+  </Dial>
+  <Play>https://devenezeducateurcanin.fr/wp-content/uploads/2025/06/WhatsApp-Accueil-2025-06-26-a-13.03.38_518ddc7b.mp3</Play>
+  <Hangup/>
+</Response>
